@@ -22,6 +22,7 @@ Since product and seller information come from **different systems**, this proje
 
 ---
 ## Project Structure
+
 omnicart_pipeline/
 ├── pipeline/
 │ ├── init.py
