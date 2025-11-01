@@ -22,7 +22,7 @@ Since product and seller information come from **different systems**, this proje
 
 ---
 ## Project Structure
-
+```bash
 omnicart_pipeline/
 ├── pipeline/
 │ ├── init.py
@@ -42,7 +42,8 @@ omnicart_pipeline/
 ├── pipeline.cfg
 ├── requirements.txt 
 ├── .gitignore
-└── README.md 
+└── README.md
+```
 ---
 ## Running the tests
 ```bash
