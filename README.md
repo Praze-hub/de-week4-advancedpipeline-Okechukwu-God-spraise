@@ -26,21 +26,21 @@ Since product and seller information come from **different systems**, this proje
 omnicart_pipeline/
 ├── pipeline/
 │ ├── init.py
-│ ├── config.py # Loads pipeline configuration
-│ ├── api_client.py # Handles API communication and pagination
-│ ├── data_enricher.py # Combines and cleans data from APIs
-│ ├── data_analyzer.py # Performs aggregation and analytics
-│ └── pipeline.py # Orchestrates the entire ETL workflow
+│ ├── config.py
+│ ├── api_client.py 
+│ ├── data_enricher.py 
+│ ├── data_analyzer.py 
+│ └── pipeline.py 
 │
 ├── tests/
-│ ├── test_api_client.py # Tests pagination and API logic
-│ ├── test_data_enricher.py # Tests data merging and enrichment
-│ ├── test_data_analyzer.py # Tests aggregation and revenue logic
-│ └── test_config.py # Tests configuration handling
+│ ├── test_api_client.py
+│ ├── test_data_enricher.py
+│ ├── test_data_analyzer.py 
+│ └── test_config.py 
 │
-├── main.py # Entry point to run the pipeline
-├── pipeline.cfg # Configuration file for pipeline settings
-├── requirements.txt # Python dependencies
+├── main.py
+├── pipeline.cfg
+├── requirements.txt 
 ├── .gitignore
 └── README.md 
 ---
