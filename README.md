@@ -49,20 +49,20 @@ pytest -v
 ```
 ---
 ## Installation & Setup
-# Clone the repo
+### Clone the repo
 ```bash
 git clone  https://github.com/Praze-hub/de-week4-advancedpipeline-Okechukwu-God-spraise.git
 ```
-# Create a virtual environment
+### Create a virtual environment
 ```bash
 python -m venv myenv
 source myenv/bin/activate
 ```
-# Install requirements.txt
+### Install requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
-# Run the pipeline
+### Run the pipeline
 ```bash
 python pipeline/pipeline.py
 ```
